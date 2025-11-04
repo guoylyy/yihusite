@@ -10,12 +10,12 @@ export function generateStaticParams() {
   return getAllCases().map((c) => ({ slug: c.slug }));
 }
 
-export default function CasePage({
+export default async function CasePage({
   params
 }: {
-  params: { slug: string };
+  params: Promise<{ slug: string }>;
 }) {
-  const { slug } = params;
+  const { slug } = await params;
   const data = getCaseBySlug(slug);
 
   if (!data) {
