@@ -1,0 +1,30 @@
+{
+  "name": "marketing-site",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "eslint . --ext .ts,.tsx --fix"
+  },
+  "dependencies": {
+    "next": "^16.0.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "tailwindcss": "^4.1.16",
+    "@tailwindcss/postcss": "latest"
+  },
+  "devDependencies": {
+    "typescript": "^5.1.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "@types/node": "^20.0.0",
+    "eslint": "^9.0.0",
+    "eslint-config-next": "latest",
+    "postcss": "^8.4.0"
+  },
+  "engines": {
+    "node": ">=20.9.0"
+  }
+}

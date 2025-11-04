@@ -1,0 +1,137 @@
+# 依赖目录
+node_modules/
+.marketing-site/node_modules/
+
+# Next.js 构建输出
+.next/
+.marketing-site/.next/
+out/
+.marketing-site/out/
+
+# 生产构建
+dist/
+.marketing-site/dist/
+build/
+.marketing-site/build/
+
+# 环境变量文件
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+.marketing-site/.env
+.marketing-site/.env.local
+.marketing-site/.env.development.local
+.marketing-site/.env.test.local
+.marketing-site/.env.production.local
+
+# 日志文件
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.marketing-site/npm-debug.log*
+.marketing-site/yarn-debug.log*
+.marketing-site/yarn-error.log*
+.marketing-site/lerna-debug.log*
+
+# 运行时数据
+pids
+*.pid
+*.seed
+*.pid.lock
+.marketing-site/pids
+.marketing-site/*.pid
+.marketing-site/*.seed
+.marketing-site/*.pid.lock
+
+# 覆盖率目录
+coverage/
+.nyc_output/
+.marketing-site/coverage/
+.marketing-site/.nyc_output/
+
+# 依赖缓存
+.npm
+.eslintcache
+.marketing-site/.npm
+.marketing-site/.eslintcache
+
+# 可选 npm 缓存目录
+.npm
+.marketing-site/.npm
+
+# 可选 eslint 缓存
+.eslintcache
+.marketing-site/.eslintcache
+
+# 微包缓存
+.pnp.*
+.marketing-site/.pnp.*
+
+# 下一步.js 调试
+.next/
+.marketing-site/.next/
+
+# 生产构建
+.next/
+.marketing-site/.next/
+
+# IDE 文件
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.marketing-site/.vscode/
+.marketing-site/.idea/
+.marketing-site/*.swp
+.marketing-site/*.swo
+.marketing-site/*~
+
+# OS 生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+.marketing-site/.DS_Store
+.marketing-site/.DS_Store?
+.marketing-site/._*
+.marketing-site/.Spotlight-V100
+.marketing-site/.Trashes
+.marketing-site/ehthumbs.db
+.marketing-site/Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+.marketing-site/*.tmp
+.marketing-site/*.temp
+
+# 缓存目录
+.cache/
+.marketing-site/.cache/
+
+# 包管理器锁文件 (如果需要保留，请删除此行)
+# package-lock.json
+# yarn.lock
+# pnpm-lock.yaml
+.marketing-site/package-lock.json
+.marketing-site/yarn.lock
+.marketing-site/pnpm-lock.yaml
+
+# 类型Script 构建输出
+*.tsbuildinfo
+.marketing-site/*.tsbuildinfo
+
+# 本地开发服务器
+.serverless/
+.marketing-site/.serverless/
+
+# 测试快照
+__snapshots__/
+.marketing-site/__snapshots__/
