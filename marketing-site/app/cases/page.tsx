@@ -10,7 +10,7 @@ export default function CasesPage() {
   const cases = getAllCases();
 
   return (
-    <div className="mx-auto max-w-screen-sm p-4 space-y-6">
+    <div className="mx-auto max-w-screen-md p-4 space-y-6">
       <header className="space-y-1">
         <h1 className="text-xl font-bold text-gray-900">
           我们已经交付过的方向
@@ -21,7 +21,7 @@ export default function CasesPage() {
         </p>
       </header>
 
-      <div className="grid gap-4">
+      <div className="grid gap-6">
         {cases.map((c) => (
           <CaseCard key={c.slug} data={c} />
         ))}
