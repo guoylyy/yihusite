@@ -1,6 +1,7 @@
 // app/layout.tsx
 import "./globals.css";
 import type { ReactNode } from "react";
+import Header from "@/components/Header";
 
 export const metadata = {
   title: "项目案例库｜定制软件交付能力展示",
@@ -12,7 +13,8 @@ export default function RootLayout({ children }: { children: ReactNode }) {
   return (
     <html lang="zh-CN">
       <body className="bg-white text-gray-900">
-        <main className="min-h-screen pb-24">{children}</main>
+        <Header />
+        <main className="min-h-screen pb-24 pt-16">{children}</main>
       </body>
     </html>
   );
